@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: firebrick;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.buttonWithImage {
+    padding: 0; /* Remove default padding */
+    width: 100px; /* Set button width */
+    height: 100px; /* Set button height */
+    border: none; /* Remove border */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Scale background image to cover button */
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#button1 {
+    background-image: url('/asset/button.jpg'); /* Replace 'image1.jpg' with your image file path */
+}
+#button2 {
+    background-image: url('/asset/button.jpg'); /* Replace 'image1.jpg' with your image file path */
+}
+#button3 {
+    background-image: url('/asset/button.jpg'); /* Replace 'image1.jpg' with your image file path */
+}
