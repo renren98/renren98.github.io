@@ -9,7 +9,7 @@ buttons.forEach(button => {
         const randomButton = buttons[randomIndex];
 
         if (button === randomButton) {
-            resultMessage.innerHTML = 'Congratulations! You won! <a href="https://link.tngdigital.com.my/dmxFLg3qYEC73eJN7">按这里赢取你的奖金</a> for your reward!';
+            resultMessage.innerHTML = 'Congratulations! You won! <a href="https://link.tngdigital.com.my/B5TXc8MZA6ZFupeA7">按这里赢取你的奖金</a>';
         } else {
             resultMessage.textContent = 'Sorry! Try again!';
         }
